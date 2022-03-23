@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>کتابخانه مرکزی شهر</title>
+    <link rel="stylesheet" href="./src/style.css" />
+  </head>
+
+  <body>
+    <main>
+      <section id="librare-holder">
+        <div id="librare-item">
+          <h2>
+            کتابخانه مرکزی شهر
+            <img src="./src/image/book.png" alt="" />
+          </h2>
+          <input type="text" id="input-item" /><br />
+          <p>جهت ثبت، نام کتاب را وارد کنید و جهت حذف کد کتاب را وارد کنید</p>
+          <input
+            type="button"
+            value="ثبت کتاب"
+            id="addbook"
+            onclick="addbook()"
+          />
+          <input
+            type="button"
+            value="حذف کتاب"
+            id="delebook"
+            onclick="delebook()"
+          />
+        </div>
+      </section>
+    </main>
+    <section id="sectable">
+      <table id="table-item">
+        <thead>
+          <tr id="tr">
+            <th style="width: 200px">کد کتاب</th>
+
+            <th>نام کتاب</th>
+            <th>عملیات</th>
+          </tr>
+        </thead>
+        <tbody id="tbody-item"></tbody>
+      </table>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>

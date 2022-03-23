@@ -1,0 +1,100 @@
+@font-face {
+  font-family: yekan;
+  src: url(./fonts/Yekan.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: yekan;
+}
+body {
+  direction: rtl;
+  width: 100%;
+  background: url("./image/lib.jpg");
+}
+#librare-item {
+  width: 25%;
+  background-color: rgba(165, 165, 165, 0.918);
+  min-height: 400px;
+  margin: 10px auto;
+  text-align: center;
+  border: none;
+  border-radius: 20px;
+}
+
+#librare-item img {
+  width: 138px;
+  margin-right: -155px;
+}
+input {
+  color: rgb(17, 16, 16);
+  font-size: 19px;
+  border: none;
+  border-radius: 20px;
+  text-align: center;
+  width: 140px;
+  padding: 5px;
+  margin-top: 8px;
+}
+input[type="text"] {
+  width: 274px;
+}
+#addbook {
+  background-color: rgba(27, 219, 27, 0.918);
+  display: inline-block;
+  color: white;
+}
+#delebook {
+  background-color: rgba(241, 28, 28, 0.938);
+  display: inline-block;
+  color: white;
+}
+#addbook:hover {
+  background-color: rgba(27, 219, 27, 0.651);
+  cursor: pointer;
+}
+#delebook:hover {
+  background-color: rgba(241, 28, 28, 0.527);
+  cursor: pointer;
+}
+p {
+  font-size: 13px;
+  font-weight: bold;
+}
+#sectable {
+  background-color: white;
+  border-radius: 20px;
+  margin: 10px;
+  padding: 10px;
+}
+#table-item {
+  width: 97%;
+  margin-right: 25px;
+  border: 1px solid rgb(64, 240, 41);
+  border-radius: 40px;
+  color: rgb(2, 2, 2);
+  font-size: 17px;
+  background-color: rgba(8, 127, 196, 0.842);
+  padding-right: 5px;
+  padding-left: 5px;
+  padding-bottom: 17px;
+  text-align: center;
+}
+#tbody-item tr:nth-child(2n) {
+  background-color: rgb(20, 231, 48);
+  border: none;
+  border-radius: 40px;
+}
+.remove {
+  font-weight: bold;
+  font-size: 20px;
+  padding: 2px 2px 2px 2px;
+  cursor: pointer;
+  color: red;
+}
+.remove:hover {
+  background-color: red;
+  color: white;
+
+  border-radius: 20px;
+}
